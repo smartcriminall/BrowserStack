@@ -1,0 +1,37 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "logesh5",
+  "key": "YpSEhGqxAY91pH1qyURx",
+
+
+  "capabilities": {
+    "build": "cucumber-java-browserstack",
+    "browserstack.debug": true
+  },
+
+  "environments": [
+    {
+      "browser": "chrome",
+      "os" : "Windows",
+      "osVersion" : "11"
+    },
+      {
+        "os" : "Windows",
+      "osVersion" : "7",
+      "browser": "firefox"
+    },
+    {
+      "os" : "OS X",
+      "osVersion" : "Monterey",
+      "browser": "safari"
+    },
+    {   "os" : "Windows",
+      "osVersion" : "11",
+      "browser": "firefox"
+    },{
+      "os" : "Windows",
+      "osVersion" : "11",
+      "browser": "Edge"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "logesh5",
+  "key": "YpSEhGqxAY91pH1qyURx",
+
+  "capabilities": {
+    "build": "cucumber-java-browserstack",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
