@@ -20,11 +20,11 @@ import io.cucumber.testng.TestNGCucumberRunner;
         glue = "com.browserstack.stepdefs",
         plugin = {
                 "pretty",
-                "html:reports/tests/cucumber/html",
-                "timeline:reports/tests/cucumber/timeline",
-                "junit:reports/tests/cucumber/junit/cucumber.xml",
-                "testng:reports/tests/cucumber/testng/cucumber.xml",
-                "json:reports/tests/cucumber/json/cucumber.json"
+                "html:src/tests/cucumber/html",
+                "timeline:src/tests/cucumber/timeline",
+                "junit:src/tests/cucumber/junit/cucumber.xml",
+                "testng:src/tests/cucumber/testng/cucumber.xml",
+                "json:src/tests/cucumber/json/cucumber.json"
         }
 )
 public class RunWebDriverCucumberTests {
